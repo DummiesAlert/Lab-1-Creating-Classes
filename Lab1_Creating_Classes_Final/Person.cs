@@ -30,7 +30,7 @@ namespace Lab1_Creating_Classes_Final
 
         {
 
-            string List = ($" PersonID: {PersonID}\nFirst Name: {FName}\nLast Name: {LName}\nFavorite Color: {FavColor}\nAge: {Age}\nIs Working? {IsWorking}");
+            string List = ($"PersonID: {PersonID}\nFirst Name: {FName}\nLast Name: {LName}\nFavorite Color: {FavColor}\nAge: {Age}\nIs Working? {IsWorking}");
             return List;
 
         }
