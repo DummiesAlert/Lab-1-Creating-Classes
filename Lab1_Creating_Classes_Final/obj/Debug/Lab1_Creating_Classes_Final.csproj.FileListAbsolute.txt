@@ -1,0 +1,3 @@
+C:\SAIT-\SAIT_WINTER_2023\OOP 2\Lab1_Creating_Classes_Final\obj\Debug\Lab1_Creating_Classes_Final.csproj.AssemblyReference.cache
+C:\SAIT-\SAIT_WINTER_2023\OOP 2\Lab1_Creating_Classes_Final\obj\Debug\Lab1_Creating_Classes_Final.csproj.SuggestedBindingRedirects.cache
+C:\SAIT-\SAIT_WINTER_2023\OOP 2\Lab1_Creating_Classes_Final\obj\Debug\Lab1_Creating_Classes_Final.csproj.CoreCompileInputs.cache
