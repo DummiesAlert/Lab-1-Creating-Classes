@@ -9,10 +9,11 @@ namespace Lab1_Creating_Classes_Final
     internal class Person
     {
 
-        public int PersonID;
-        public int Age;
-        public string FName, LName, FavColor;
-        public bool IsWorking;
+        private int PersonID;
+        private int Age;
+        private string FName, LName, FavColor;
+        private bool IsWorking;
+
         public Person(int PersonID, string FName, string LName, string FavColor, int Age, bool IsWorking)
 
         {
@@ -30,16 +31,25 @@ namespace Lab1_Creating_Classes_Final
 
         {
 
-            string List = ($"PersonID: {PersonID}\nFirst Name: {FName}\nLast Name: {LName}\nFavorite Color: {FavColor}\nAge: {Age}\nIs Working? {IsWorking}");
+            string List = ($"PersonID: {PersonID}\nFirst Name: {FName}\nLast Name: {LName}\nFavorite Color: {FavColor}\nAge: {Age}\nIsWorking? {IsWorking}");
             return List;
+
+        }
+
+        public string Name() //Optional (Reuseable), I added to Easily use Name() with FName and LName.
+
+        {
+
+            string Name = ($"{FName} {LName}");
+            return Name; 
 
         }
 
         public string DisplayPersonInfo()
 
         {
-
-            string Info = ($"{PersonID}: {FName} {LName}'s FAVORITE COLOR is {FavColor}");
+            
+            string Info = ($"{PersonID}: {Name()}'s FAVORITE COLOR is {FavColor}");
             return Info;
 
         }
@@ -56,9 +66,10 @@ namespace Lab1_Creating_Classes_Final
 
         {
 
-            string AgeUp = ($"{FName} {LName}'s Age in 10 Years is: {Age + 10}");
+            string AgeUp = ($"{Name()}'s Age in 10 Years is: {Age + 10}");
             return AgeUp;
 
         }
+
     }
 }
