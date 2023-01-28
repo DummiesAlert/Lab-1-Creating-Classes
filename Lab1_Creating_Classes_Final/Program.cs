@@ -26,6 +26,7 @@ namespace Lab1_Creating_Classes_Final
             Console.WriteLine(P1Ian.ChangeFavoriteColor());
             Console.WriteLine(P4Mary.GetAgeInTenYears());
 
+            Console.WriteLine($"\nPerson List:\n\n{P1Ian.ToString()} \n\n{P2Gina.ToString()} \n\n{P3Mike.ToString()} \n\n{P4Mary.ToString()}");
         }
 
     }

@@ -36,7 +36,7 @@ namespace Lab1_Creating_Classes_Final
 
         }
 
-        public string Name() //Optional (Reuseable), I added to Easily use Name() with FName and LName.
+        public string Name() //Optional (can be Reuseable), I added to Easily use Name() with FName and LName.
 
         {
 
